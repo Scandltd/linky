@@ -1,0 +1,34 @@
+{
+    "extensionName": {
+        "message": "Linky",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Linky - Firefox add-on that simplifies browsing performing redundant tasks in multiple containers",
+        "description": "Description of the extension"
+    },
+    "extensionContextMenuLink": {
+        "message": "Ope&n in available Containers",
+        "description": "Label displayed in tab's Context Menu"
+    },
+    "optionsPageTitle": {
+        "message": "Linky - Options",
+        "description": "Title for Options page"
+    },
+    "optionsPageInfoSectionTitle": {
+        "message": "Info",
+        "description": "Title for Info section on Options page"
+    },
+    "optionsPageKeyboardShortcutSubtitle": {
+        "message": "Keyboard Shortcut",
+        "description": "Subtitle for shortcuts section on Option page"
+    },
+    "optionsPageKeyboardShortcutDescription": {
+        "message": "Click by extension icon: Ctrl+ALT+U",
+        "description": "Description for Keyboard shortcut on Option page"
+    },
+    "shortcutsDescriptionInBrowserManageExtension": {
+        "message": "Open in available Containers",
+        "description": "Title for 'Open in all containers' shortcuts in browser manage extension shortcuts panel"
+    }
+}

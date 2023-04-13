@@ -1,0 +1,34 @@
+{
+    "extensionName": {
+        "message": "Linky",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Linky - пашырэнне для Firefox, якое спрашчае прагляд вэб-старонак, выконваючы залішнія задачы ў некалькіх кантэйнерах",
+        "description": "Description of the extension"
+    },
+    "extensionContextMenuLink": {
+        "message": "Адкрыць у дас&тупных кантэйнерах",
+        "description": "Label displayed in tab's Context Menu"
+    },
+    "optionsPageTitle": {
+        "message": "Linky - Настройкі",
+        "description": "Title for Options page"
+    },
+    "optionsPageInfoSectionTitle": {
+        "message": "Інфармацыя",
+        "description": "Title for Info section on Options page"
+    },
+    "optionsPageKeyboardShortcutSubtitle": {
+        "message": "Спалучэнне клавіш",
+        "description": "Subtitle for shortcuts section on Option page"
+    },
+    "optionsPageKeyboardShortcutDescription": {
+        "message": "Націск на абразок пашырэння: Ctrl+ALT+U",
+        "description": "Description for Keyboard shortcut on Option page"
+    },
+    "shortcutsDescriptionInBrowserManageExtension": {
+        "message": "Адкрыць у даступных кантэйнерах",
+        "description": "Title for 'Open in all containers' shortcuts in browser manage extension shortcuts panel"
+    }
+}

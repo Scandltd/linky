@@ -1,0 +1,24 @@
+body {
+    color: #333333;
+}
+
+.settings-container {
+    margin: 0.5rem;
+    border: 1px solid #cccccc;
+    padding: 1rem;
+}
+
+.icon {
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+
+.icon-keyboard {
+    background-image: url('../icons/keyboard.png');
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: normal;
+}
