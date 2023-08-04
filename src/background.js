@@ -1,5 +1,5 @@
 var DEFAULT_CONFIG = {
-  "version": "0.2-SNAPSHOT",
+  "version": "0.2",
   "updatedOn": "Tue Jul 11 2023 19:52:49 GMT+0300 (Moscow Standard Time)",
   "settings": {
     "shortcuts": [

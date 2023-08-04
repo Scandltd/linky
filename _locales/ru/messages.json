@@ -16,7 +16,7 @@
         "description": "Name of the extension license"
     },
     "extensionVersionNumber": {
-        "message": "Версия 0.2-SNAPSHOT",
+        "message": "Версия 0.2",
         "description": "Number of the extension version"
     },
     "extensionDescription": {

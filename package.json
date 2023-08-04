@@ -1,6 +1,6 @@
 {
   "name": "linky",
-  "version": "0.2-SNAPSHOT",
+  "version": "0.2",
   "description": "Linky - Firefox add-on that simplifies browsing performing redundant tasks in multiple containers",
   "main": "src/background.js",
   "scripts": {
