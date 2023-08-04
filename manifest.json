@@ -12,21 +12,22 @@
         "96": "src/icons/icon-linky-48.svg"
     },
     "options_ui": {
-        "page": "src/options/options.html"
+        "page": "src/options/options.html",
+        "open_in_tab": true
     },
     "background": {
-        "scripts": ["src/background.js"]
+        "page": "src/index.html"
     },
     "commands": {
         "_execute_browser_action": {
             "suggested_key": {
-                "default": "Ctrl+Alt+U",
-                "mac": "MacCtrl+Alt+U"
+                "default": "Ctrl+Alt+L",
+                "mac": "MacCtrl+Alt+L"
             },
             "description": "__MSG_shortcutsDescriptionInBrowserManageExtension__"
         }
     },
-    "permissions": ["activeTab", "menus", "cookies", "contextualIdentities"],
+    "permissions": ["activeTab", "menus", "cookies", "contextualIdentities", "storage"],
     "browser_action": {
         "default_icon": {
             "48": "src/icons/icon-linky-48.svg",

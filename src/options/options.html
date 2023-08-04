@@ -1,22 +1,155 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title data-locale="optionsPageTitle"></title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="options.css">
-</head>
-<body>
+  </head>
+  <body>
+    <div class="options-page">
+      <div class="header">
+        <div class="logo-container">
+          <img src="../icons/icon-linky-64.png" class="logo" alt="">
+          <span class="logo-title" data-locale="extensionName"></span>
+        </div>
+        <div class="title-container">
+          <h1 id="options-title" data-locale="optionsPageSettingsSectionTitle"></h1>
+          <hr>
+        </div>
+      </div>
 
-<p class="title" data-locale="optionsPageInfoSectionTitle"></p>
+      <div class="settings-wrapper">
+        <div class="tab">
+          <input type="radio" id="sections-tab" name="tab-group-1" value="Settings" checked>
+          <label for="sections-tab" class="menu-item" data-locale="optionsPageSettingsSectionTitle"></label>
 
-<div class="settings-container">
-    <div class="shortcuts-info-block">
-        <span class="icon icon-keyboard"
-              data-locale="optionsPageKeyboardShortcutSubtitle"></span>
-        <p data-locale="optionsPageKeyboardShortcutDescription"></p>
+          <ol class="content">
+            <li class="settings-container">
+              <fieldset>
+                <legend class="no-display-legend" data-locale="optionsPageDelaysSectionTitle"></legend>
+                <ul class="child-elements">
+                  <li class="settings-container">
+                    <div class="settings-element">
+                      <p class="caption" data-locale="optionsPageDelaysSectionOpenByGroupsSubTitle"></p>
+                      <div class="settings-form">
+                        <input type="number" min="0" step="1" id="numberOfContainersInGroup" data-previous-value="" class="settings-input delay-settings-input" placeholder="Containers by groups">
+                        <p class="warning" id="numberOfContainersInGroup_warning" data-locale="warningMessageIncorrectDelayValue"></p>
+                      </div>
+                      <p class="caption" data-locale="optionsPageDelaysSectionOpenByGroupsContainers"></p>
+                    </div>
+                  </li>
+
+                  <li class="settings-container">
+                    <div class="settings-element">
+                      <p class="caption" data-locale="optionsPageDelaysSectionOpenInGroupsIntervalSubTitle"></p>
+                      <div class="settings-form">
+                        <input type="number" min="0" step="100" id="containersInGroupOpeningInterval" data-previous-value="" class="settings-input delay-settings-input" placeholder="Interval between containers">
+                        <p class="warning" id="containersInGroupOpeningInterval_warning" data-locale="warningMessageIncorrectDelayValue"></p>
+                      </div>
+                      <p class="caption" data-locale="optionsPageDelaysSectionDelaysUnit"></p>
+                    </div>
+                  </li>
+
+                  <li class="settings-container">
+                    <div class="settings-element">
+                      <p class="caption" data-locale="optionsPageDelaysSectionOpenContainerGroupsIntervalSubTitle"></p>
+                      <div class="settings-form">
+                        <input type="number" min="0" step="100" id="groupsOpeningInterval" data-previous-value="" class="settings-input delay-settings-input" placeholder="Interval between groups">
+                        <p class="warning" id="groupsOpeningInterval_warning" data-locale="warningMessageIncorrectDelayValue"></p>
+                      </div>
+                      <p class="caption" data-locale="optionsPageDelaysSectionDelaysUnit"></p>
+                    </div>
+                  </li>
+                </ul>
+              </fieldset>
+            </li>
+          </ol>
+        </div>
+
+        <div class="tab">
+          <input type="radio" id="shortcuts-tab" value="Keyboard Shortcuts" name="tab-group-1">
+          <label for="shortcuts-tab" class="menu-item" data-locale="optionsPageShortCutsSectionTitle"></label>
+
+          <ol class="content">
+            <li class="option-container">
+              <fieldset>
+                <legend class="no-display-legend" data-locale="optionsPageKeyboardShortcutContentTitle"></legend>
+                <ul class="child-elements">
+                  <li class="option-container">
+                    <div class="option-element">
+                      <p class="caption" data-locale="optionsPageKeyboardShortcutContentDetailDescription"></p>
+                      <div class="option-form">
+                        <div class="keyboard-shortcut">
+                          <div class="row">
+                            <input type="text" id="_execute_browser_action" class="shortcuts-input" placeholder="Type a shortcut" value="">
+                            <button class="clear-button" id="_execute_browser_action_clear_btn" title="Clear" data-locale="optionsPageKeyboardShortcutClearButtonTitle"></button>
+                            <button class="reset-button" id="_execute_browser_action_reset_btn" title="Reset" data-locale="optionsPageKeyboardShortcutResetButtonTitle"></button>
+                          </div>
+                          <p class="error" id="_execute_browser_action_error"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </fieldset>
+            </li>
+          </ol>
+        </div>
+
+        <div class="tab">
+          <input type="radio" id="about-tab" name="tab-group-1" value="About">
+          <label for="about-tab" class="menu-item" data-locale="optionsPageAboutSectionTitle"></label>
+
+          <ol class="content">
+            <li class="option-container">
+              <div class="option-element ">
+                <div class="option-text">
+                  <label data-locale="extensionName"></label>
+                  <p class="caption">
+                    <a href="https://github.com/Scandltd/linky/" data-locale="extensionVersionNumber" target="_blank"></a>
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="option-container">
+              <div class="option-element ">
+                <div class="option-text">
+                  <label data-locale="optionsPageAboutSectionAuthorSubsectionTitle"></label>
+                  <p class="caption">
+                    <a href="https://scand.com" target="_blank" data-locale="authorName"></a>
+                    <span data-locale="authorDetails"></span>
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="option-container">
+              <div class="option-element ">
+                <div class="option-text">
+                  <label data-locale="optionsPageAboutSectionLicenseSubsectionTitle"></label>
+                  <p class="caption" data-locale="extensionLicenseName"></p>
+                </div>
+              </div>
+            </li>
+
+            <li class="option-container">
+              <div class="option-element ">
+                <div class="option-text">
+                  <label data-locale="optionsPageAboutSectionFeedbackSubsectionTitle"></label>
+                  <p class="caption">
+                    <span data-locale="optionsPageAboutSectionFeedbackDetails"></span>
+                    <a href="https://github.com/Scandltd/linky" target="_blank" data-locale="optionsPageAboutSectionFeedbackGithubRepositoryLink"></a>,
+                    <span data-locale="optionsPageAboutSectionFeedbackMailUs"></span> <a href="mailto:linky@scand.com">linky@scand.com</a>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
     </div>
-</div>
 
-<script src="options.js"></script>
-</body>
+    <script src="options.js"></script>
+  </body>
 </html>

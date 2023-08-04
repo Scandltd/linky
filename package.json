@@ -1,20 +1,21 @@
 {
-    "name": "linky",
-    "version": "0.1",
-    "description": "Linky - Firefox add-on that simplifies browsing performing redundant tasks in multiple containers",
-    "main": "src/background.js",
-    "scripts": {
-        "start": "web-ext run",
-        "build": "web-ext build --overwrite-dest",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Scand",
-    "license": "GNU v2.0",
-    "devDependencies": {
-        "eslint": "^8.38.0",
-        "prettier": "2.8.7"
-    },
-    "dependencies": {
-        "web-ext": "^7.6.1"
-    }
+  "name": "linky",
+  "version": "0.2-SNAPSHOT",
+  "description": "Linky - Firefox add-on that simplifies browsing performing redundant tasks in multiple containers",
+  "main": "src/background.js",
+  "scripts": {
+    "start": "web-ext run",
+    "build": "web-ext build --overwrite-dest",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scand",
+  "license": "GNU v2.0",
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "prettier": "2.8.7"
+  },
+  "dependencies": {
+    "web-ext": "^7.6.1"
+  }
 }

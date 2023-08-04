@@ -3,6 +3,22 @@
         "message": "Linky",
         "description": "Name of the extension"
     },
+    "authorName": {
+        "message": "Scand",
+        "description": "Developer company name"
+    },
+    "authorDetails": {
+        "message": " IT-кампанія, якая займаецца распрацоўкай праграмнага забеспячэння і аказвае шырокі спектр аўтсорсінгавых паслуг у сферы IT, дапамагае кампаніям любога памеру паскорыць распрацоўку прадуктаў і вывесці іх на рынак хутчэй, чым канкурэнты. З правільным партнёрам і правільнымі тэхналогіямі, у тым ліку .NET, Java, PHP, JavaScript, C/C++ і многія іншыя, вы можаце з упэўненасцю глядзець у будучыню.",
+        "description": "Developer company details"
+    },
+    "extensionLicenseName": {
+        "message": "GNU General Public License v2.0",
+        "description": "Name of the extension license"
+    },
+    "extensionVersionNumber": {
+        "message": "Версія 0.2-SNAPSHOT",
+        "description": "Number of the extension version"
+    },
     "extensionDescription": {
         "message": "Linky - пашырэнне для Firefox, якое спрашчае прагляд вэб-старонак, выконваючы залішнія задачы ў некалькіх кантэйнерах",
         "description": "Description of the extension"
@@ -11,24 +27,108 @@
         "message": "Адкрыць у дас&тупных кантэйнерах",
         "description": "Label displayed in tab's Context Menu"
     },
-    "optionsPageTitle": {
-        "message": "Linky - Настройкі",
-        "description": "Title for Options page"
+    "optionsPageDelaysSectionTitle": {
+        "message": "Упраўленне адкрыццём укладак кантэйнера",
+        "description": "Title for 'Container Tabs Opening Control' shortcuts section on Option page"
     },
-    "optionsPageInfoSectionTitle": {
-        "message": "Інфармацыя",
-        "description": "Title for Info section on Options page"
+    "optionsPageDelaysSectionOpenByGroupsSubTitle": {
+        "message": "Адкрываць новыя кантэйнеры групамі па",
+        "description": "Subtitle for option setting - number of containers in a group"
     },
-    "optionsPageKeyboardShortcutSubtitle": {
-        "message": "Спалучэнне клавіш",
-        "description": "Subtitle for shortcuts section on Option page"
+    "optionsPageDelaysSectionOpenByGroupsContainers": {
+        "message": "кантэйнера(аў).",
+        "description": ""
     },
-    "optionsPageKeyboardShortcutDescription": {
-        "message": "Націск на абразок пашырэння: Ctrl+ALT+U",
-        "description": "Description for Keyboard shortcut on Option page"
+    "optionsPageDelaysSectionOpenInGroupsIntervalSubTitle": {
+        "message": "Адкрываць новыя кантэйнеры ў групе з інтэрвалам",
+        "description": "Subtitle for option setting - interval between containers in group"
+    },
+    "optionsPageDelaysSectionOpenContainerGroupsIntervalSubTitle": {
+        "message": "Адкрываць групы кантэйнераў з інтэрвалам",
+        "description": "Subtitle for option setting - interval between groups"
+    },
+    "optionsPageDelaysSectionDelaysUnit": {
+        "message": "мілісекунды.",
+        "description": "Delays unit"
+    },
+    "optionsPageKeyboardShortcutContentDetailDescription": {
+        "message": "Адкрывае актыўную ўкладку ва ўсіх даступных кантэйнерах.",
+        "description": "Full description for Keyboard shortcut on Option page"
+    },
+    "optionsPageKeyboardShortcutContentTitle": {
+        "message": "Клавіятурныя спалучэнні",
+        "description": "Title for Shortcuts content block"
     },
     "shortcutsDescriptionInBrowserManageExtension": {
         "message": "Адкрыць у даступных кантэйнерах",
         "description": "Title for 'Open in all containers' shortcuts in browser manage extension shortcuts panel"
+    },
+    "optionsPageKeyboardShortcutClearButtonTitle": {
+        "message": "Ачысціць",
+        "description": "Title for 'Clear' button in browser manage extension shortcuts panel"
+    },
+    "optionsPageKeyboardShortcutResetButtonTitle": {
+        "message": "Скінуць",
+        "description": "Title for 'Reset' button in browser manage extension shortcuts panel"
+    },
+    "optionsPageSettingsSectionTitle": {
+        "message": "Настройкі",
+        "description": "Title for Settings section on Options page"
+    },
+    "optionsPageShortCutsSectionTitle": {
+        "message": "Спалучэнне клавіш",
+        "description": "Title for Shortcuts section on Options page"
+    },
+    "optionsPageAboutSectionTitle": {
+        "message": "Апісанне",
+        "description": "Title for About section on Options page"
+    },
+    "optionsPageAboutSectionAuthorSubsectionTitle": {
+        "message": "Аўтар",
+        "description": "Title for subsection Author into About section on Options page"
+    },
+    "optionsPageAboutSectionLicenseSubsectionTitle": {
+        "message": "Ліцэнзія",
+        "description": "Title for subsection License into About section on Options page"
+    },
+    "optionsPageAboutSectionFeedbackSubsectionTitle": {
+        "message": "Зваротная сувязь",
+        "description": "Title for subsection Feedback into About section on Options page"
+    },
+    "optionsPageAboutSectionFeedbackDetails": {
+        "message": "Вы можаце пакінуць свой водгук у нашым",
+        "description": "Details about how you can leave feedback"
+    },
+    "optionsPageAboutSectionFeedbackGithubRepositoryLink": {
+        "message": "github рэпазітары",
+        "description": "Github repository link"
+    },
+    "optionsPageAboutSectionFeedbackMailUs": {
+        "message": "ці напішыце нам на",
+        "description": "Mail us link"
+    },
+    "typeLetterMessage": {
+        "message": "Увядзіце літару",
+        "description": "Error message that displays if you insert just Ctr or Alt without letter"
+    },
+    "includeModifierKeysMessage": {
+        "message": "Павінна ўключаць Ctrl або Alt",
+        "description": "Error message that displays if you don't insert Ctrl or Alt (one of them is required)"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "Павінна ўключаць Command, Ctrl або Alt",
+        "description": "Error message that displays for Mac if you don't insert Command or Ctrl or Alt (one of them is required)"
+    },
+    "invalidLetterMessage": {
+        "message": "Літара не можа быць выкарыстана",
+        "description": "Error message that displays if you try to insert the letter that can not be used"
+    },
+    "invalidAlreadyReserved": {
+        "message": "Камбінацыя ўжо зарэзерваваная",
+        "description": "Error message that displays if you try to insert the short cuts combination that has already reserved"
+    },
+    "warningMessageIncorrectDelayValue": {
+        "message": "Значэнне недапушчальна, яно было вернутае ў папярэдні стан",
+        "description": "Warning message that displays for 2 second if user try to set incorrect value for delays options"
     }
 }

@@ -3,32 +3,132 @@
         "message": "Linky",
         "description": "Name of the extension"
     },
+    "authorName": {
+        "message": "Scand",
+        "description": "Developer company name"
+    },
+    "authorDetails": {
+        "message": " IT-компания, которая занимается разработкой программного обеспечения и оказывает широкий спектр аутсорсинговых услуг в сфере IT, помогает компаниям любого размера ускорить разработку продуктов и вывести их на рынок быстрее, чем конкуренты. С правильным партнером и правильными технологиями, включая .NET, Java, PHP, JavaScript, C/C++ и многие другие, вы можете с уверенностью смотреть в будущее.",
+        "description": "Developer company details"
+    },
+    "extensionLicenseName": {
+        "message": "GNU General Public License v2.0",
+        "description": "Name of the extension license"
+    },
+    "extensionVersionNumber": {
+        "message": "Версия 0.2-SNAPSHOT",
+        "description": "Number of the extension version"
+    },
     "extensionDescription": {
-        "message": "Linky — расширение для Firefox, которое упрощает просмотр веб-страниц, выполняя избыточные задачи в нескольких контейнерах",
+        "message": "Linky - расширение для Firefox, которое упрощает просмотр веб-страниц, выполняя избыточные задачи в нескольких контейнерах",
         "description": "Description of the extension"
     },
     "extensionContextMenuLink": {
         "message": "Откры&ть в доступных контейнерах",
         "description": "Label displayed in tab's Context Menu"
     },
-    "optionsPageTitle": {
-        "message": "Linky - Настройки",
-        "description": "Title for Options page"
+    "optionsPageDelaysSectionTitle": {
+        "message": "Управление открытием вкладок контейнера",
+        "description": "Title for 'Container Tabs Opening Control' shortcuts section on Option page"
     },
-    "optionsPageInfoSectionTitle": {
-        "message": "Информация",
-        "description": "Title for Info section on Options page"
+    "optionsPageDelaysSectionOpenByGroupsSubTitle": {
+        "message": "Открывайть новые контейнеры группами по",
+        "description": "Subtitle for option setting - number of containers in a group"
     },
-    "optionsPageKeyboardShortcutSubtitle": {
-        "message": "Сочетание клавиш",
-        "description": "Subtitle for shortcuts section on Option page"
+    "optionsPageDelaysSectionOpenByGroupsContainers": {
+        "message": "контейнера(ов).",
+        "description": ""
     },
-    "optionsPageKeyboardShortcutDescription": {
-        "message": "Нажатие на иконку расширения: Ctrl+ALT+U",
-        "description": "Description for Keyboard shortcut on Option page"
+    "optionsPageDelaysSectionOpenInGroupsIntervalSubTitle": {
+        "message": "Открывайть новые контейнеры в группе с интервалом",
+        "description": "Subtitle for option setting - interval between containers in group"
+    },
+    "optionsPageDelaysSectionOpenContainerGroupsIntervalSubTitle": {
+        "message": "Открывать группы контейнеров с интервалом",
+        "description": "Subtitle for option setting - interval between groups"
+    },
+    "optionsPageDelaysSectionDelaysUnit": {
+        "message": "миллисекунды.",
+        "description": "Delays unit"
+    },
+    "optionsPageKeyboardShortcutContentDetailDescription": {
+        "message": "Открывает текущую активную вкладку во всех доступных контейнерах.",
+        "description": "Full description for Keyboard shortcut on Option page"
+    },
+    "optionsPageKeyboardShortcutContentTitle": {
+        "message": "Клавиатурные сочетания",
+        "description": "Title for Shortcuts content block"
     },
     "shortcutsDescriptionInBrowserManageExtension": {
         "message": "Открыть в доступных контейнерах",
         "description": "Title for 'Open in all containers' shortcuts in browser manage extension shortcuts panel"
+    },
+    "optionsPageKeyboardShortcutClearButtonTitle": {
+        "message": "Очистить",
+        "description": "Title for 'Clear' button in browser manage extension shortcuts panel"
+    },
+    "optionsPageKeyboardShortcutResetButtonTitle": {
+        "message": "Сбросить",
+        "description": "Title for 'Reset' button in browser manage extension shortcuts panel"
+    },
+    "optionsPageSettingsSectionTitle": {
+        "message": "Настройки",
+        "description": "Title for Settings section on Options page"
+    },
+    "optionsPageShortCutsSectionTitle": {
+        "message": "Сочетания клавиш",
+        "description": "Title for Shortcuts section on Options page"
+    },
+    "optionsPageAboutSectionTitle": {
+        "message": "Описание",
+        "description": "Title for About section on Options page"
+    },
+    "optionsPageAboutSectionAuthorSubsectionTitle": {
+        "message": "Автор",
+        "description": "Title for subsection Author into About section on Options page"
+    },
+    "optionsPageAboutSectionLicenseSubsectionTitle": {
+        "message": "Лицензия",
+        "description": "Title for subsection License into About section on Options page"
+    },
+    "optionsPageAboutSectionFeedbackSubsectionTitle": {
+        "message": "Обратная связь",
+        "description": "Title for subsection Feedback into About section on Options page"
+    },
+    "optionsPageAboutSectionFeedbackDetails": {
+        "message": "Вы можете оставить свой отзыв в нашем",
+        "description": "Details about how you can leave feedback"
+    },
+    "optionsPageAboutSectionFeedbackGithubRepositoryLink": {
+        "message": "github репозитории",
+        "description": "Github repository link"
+    },
+    "optionsPageAboutSectionFeedbackMailUs": {
+        "message": "или напишите нам на",
+        "description": "Mail us link"
+    },
+    "typeLetterMessage": {
+        "message": "Введите букву",
+        "description": "Error message that displays if you insert just Ctr or Alt without letter"
+    },
+    "includeModifierKeysMessage": {
+        "message": "Должно включать Ctrl либо Alt",
+        "description": "Error message that displays if you don't insert Ctrl or Alt (one of them is required)"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "Должно включать Command, Ctrl либо Alt",
+        "description": "Error message that displays for Mac if you don't insert Command or Ctrl or Alt (one of them is required)"
+    },
+    "invalidLetterMessage": {
+        "message": "Буква не может быть использована",
+        "description": "Error message that displays if you try to insert the letter that can not be used"
+    },
+    "invalidAlreadyReserved": {
+        "message": "Комбинация уже зарезервирована",
+        "description": "Error message that displays if you try to insert the short cuts combination that has already reserved"
+    },
+    "warningMessageIncorrectDelayValue": {
+        "message": "Значение недопустимо, оно было возвращено в предыдущее состояние",
+        "description": "Warning message that displays for 2 second if user try to set incorrect value for delays options"
     }
 }
